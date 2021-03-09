@@ -4,25 +4,16 @@
   margin: 0;
 }
 
-.menu-box {
-  padding: 20px;
+header{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-main {
+.menu-box {
   width: 80%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
 .menu {
   display: flex;
   justify-content: space-between;
-  list-style-type: none;
-}
-
-.menu li {
-  text-decoration: none;
 }

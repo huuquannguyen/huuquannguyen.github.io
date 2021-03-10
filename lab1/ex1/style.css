@@ -8,6 +8,9 @@ body {
   color: gray;
   font-size: 20px;
 }
+main img {
+  margin-top: 20px;
+}
 .margin-bot {
   margin-bottom: 40px;
 }
@@ -26,6 +29,26 @@ h1 {
   padding: 5px 0;
   margin: 60px auto 90px auto;
 }
+h2 {
+  word-spacing: 2px;
+  font-size: 40px;
+}
+
+/* background-header */
+.background-header {
+  background: url(https://image.freepik.com/free-photo/close-up-photo-oil-paints-canvas-wall_176420-2849.jpg)
+    no-repeat center center / cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background-header p {
+  color: white;
+  letter-spacing: 18px;
+  font-size: 150px;
+}
+
 /* menu and header*/
 header {
   display: flex;
@@ -72,7 +95,7 @@ main {
   justify-content: center;
 }
 .content {
-  width: 60%;
+  width: 55%;
 }
 
 /* nav */
@@ -101,4 +124,31 @@ main {
 }
 .nav {
   margin-bottom: 60px;
+}
+
+/*footer  */
+footer {
+  text-align: center;
+  width: 20%;
+  margin: 0px auto 60px auto;
+  border: 1px solid darkcyan;
+  border-radius: 5px;
+  background-color: darkcyan;
+}
+footer a {
+  font-size: 25px;
+  font-weight: 800;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 15px;
+}
+footer a:hover {
+  background-color: white;
+  color: darkcyan;
+  border-radius: 5px;
+}
+footer a:active {
+  background-color: darkcyan;
+  color: white;
 }

@@ -8,6 +8,9 @@ body {
   color: gray;
   font-size: 20px;
 }
+main img {
+  margin-top: 20px;
+}
 .margin-bot {
   margin-bottom: 40px;
 }
@@ -18,18 +21,18 @@ h3 {
   margin: 20px 0;
 }
 h1 {
-  color: white;
+  color: darkcyan;
   size: 40px;
   text-align: center;
   border: 1px solid darkcyan;
+  width: 50%;
   padding: 5px 0;
-  background-color: darkcyan;
-  width: 100%;
-  letter-spacing: 2px;
+  margin: 60px 0 90px 0;
 }
 h2 {
-  word-spacing: 2px;
-  font-size: 40px;
+  word-spacing: 1px;
+  font-size: 35px;
+  margin-bottom: 15px;
 }
 
 /* background-header */
@@ -81,45 +84,64 @@ header {
   letter-spacing: 1px;
   padding: 10px;
 }
-/* current-page */
-.menu li:last-of-type {
+
+/* current page */
+.menu li:nth-of-type(2) {
   background-color: darkcyan;
 }
 
-/*main  */
-main {
-  display: flex;
-  justify-content: center;
-}
-.main-content {
-  width: 35%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  border: 1px solid darkcyan;
-  margin: 100px 0;
-}
-/* items */
-.contact-item {
+/* nav */
+.nav {
+  margin-bottom: 80px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 15px 0;
+  align-items: flex-end;
 }
-.img-and-link {
+.nav p {
+  font-size: 25px;
+  font-weight: 800;
+}
+.nav {
+  padding-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
+.nav ul {
+  list-style-type: none;
   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.nav a {
+  text-decoration: none;
+  color: rgb(99, 92, 92);
+  font-size: 17px;
+}
+.nav a:hover {
+  text-decoration: underline;
+  color: darkcyan;
+}
+.nav a:active {
+  color: orange;
+}
+
+/* main */
+main {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
-.img-and-link img {
-  margin-right: 10px;
+.main-content {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.img-and-link a {
-  text-decoration: none;
-  color: gray;
-}
-.img-and-link a:hover {
-  color: darkcyan;
-  text-decoration: underline;
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
 }

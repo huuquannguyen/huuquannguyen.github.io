@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+button,
+a {
+  text-decoration: none;
+}
+body {
+  color: gray;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+
+/* header */
+header {
+  height: 300px;
+  background: url(https://image.freepik.com/free-photo/close-up-photo-oil-paints-canvas-wall_176420-2849.jpg)
+    no-repeat center center / cover;
+  display: flex;
+  align-items: flex-end;
+}
+.header-content {
+  width: 50%;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+header p {
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+}
+header button {
+  margin-top: 20px;
+  width: 200px;
+  background: none;
+  border: 1px solid white;
+  padding: 20px 0;
+  color: white;
+  cursor: pointer;
+}
+.glocery {
+  color: orange;
+}
+header button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+button a {
+  color: white;
+  font-size: 1.5em;
+}
+
+/* nav */
+nav {
+  background-color: powderblue;
+}
+.nav-items {
+  display: flex;
+}
+.nav-items li {
+  flex: 1;
+}
+.nav-items li a {
+  display: block;
+  padding: 10px 15px;
+}
+.nav-items li:hover {
+  background-color: rgb(75, 141, 141);
+}
+.nav-items li:first-of-type {
+  text-align: end;
+  border-right: 1px solid rgb(130, 186, 194);
+}
+nav a {
+  color: white;
+}
+.margin-bot {
+  margin-bottom: 80px;
+}
+/* main */
+main {
+  width: 68%;
+  margin: 0 auto;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  background-color: rgb(80, 165, 165);
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 300px;
+}
+
+/* section */
+.wrap-section {
+  width: 100%;
+  background-color: rgb(228, 228, 228);
+  padding: 5px;
+}
+.margin-bot-10px {
+  margin-bottom: 30px;
+}
+h2 {
+  word-spacing: 1px;
+  border-bottom: 3px solid rgb(91, 160, 137);
+  width: 20%;
+  color: rgb(97, 173, 179);
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  width: 32%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.item button {
+  width: 40%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(91, 160, 137);
+  cursor: pointer;
+  color: rgb(91, 160, 137);
+  padding: 5px;
+}
+.item button:hover {
+  color: orange;
+  text-decoration: underline;
+  box-shadow: 0 0 2px black;
+  border: none;
+  border-radius: 3px;
+}
+.go-to-cart {
+  border: none;
+  padding: 15px;
+  background-color: paleturquoise;
+  width: 20%;
+  cursor: pointer;
+}
+.go-to-cart:hover {
+  background-color: rgb(118, 167, 167);
+}

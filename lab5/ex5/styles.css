@@ -1,0 +1,7 @@
+.box {
+  display: none;
+  background-color: red;
+}
+input:checked > .box {
+  display: block;
+}

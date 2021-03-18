@@ -14,10 +14,12 @@ body div {
   border: 2px solid black;
 }
 a {
+  text-align: center;
   text-decoration: none;
   display: block;
   width: 100%;
   font-size: 30px;
   font-weight: 600;
   height: 100%;
+  vertical-align: middle;
 }

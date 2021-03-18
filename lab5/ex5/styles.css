@@ -1,7 +1,71 @@
-.box {
-  display: none;
-  background-color: red;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-input:checked > .box {
-  display: block;
+table,
+tr,
+td {
+  border: 1px solid rgb(150, 143, 143);
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+table {
+  /* border-collapse: collapse; */
+  table-layout: fixed;
+  width: 400px;
+  margin: 200px auto;
+  border: 3px solid rgb(105, 100, 100);
+}
+td {
+  text-align: center;
+}
+
+/* thead */
+thead h1 {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(194, 9, 9);
+}
+thead p {
+  font-size: 14px;
+  font-weight: normal;
+}
+thead th {
+  padding: 10px;
+}
+
+/* tbody */
+tbody th {
+  font-weight: normal;
+}
+tbody td {
+  font-weight: 600;
+}
+tbody tr:nth-child(odd) {
+  background-color: #eee;
+}
+.color {
+  background-color: #eee;
+}
+#non-color {
+  background-color: white;
+}
+tbody td,
+tbody th {
+  padding: 5px 0;
+}
+tbody td:hover,
+tbody th:hover {
+  background-color: orange;
+}
+/* detail */
+.special td {
+  font-size: 25px;
+  font-weight: 600;
+  color: red;
+}
+.special th {
+  color: red;
 }

@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  padding-top: 200px;
+  justify-content: space-around;
+}
+body div {
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+}
+a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 600;
+  height: 100%;
+}

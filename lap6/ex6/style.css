@@ -155,7 +155,7 @@ input {
 .gray {
   background: rgba(0, 0, 0, 0.25);
 }
-.blue:hover {
+.blue1:hover {
   background-color: #5b7dff;
 }
 .main-menu > li:hover > a {

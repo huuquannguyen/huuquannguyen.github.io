@@ -111,6 +111,7 @@ nav {
   width: 100vw;
   background-color: white;
   height: 130px;
+  padding-top: 1px;
 }
 .logo {
   width: 150px;
@@ -122,7 +123,7 @@ input {
   padding: 5px 10px;
   border: 1px solid #ccc;
   border-radius: 20px;
-  margin: 5px;
+  margin: 0 5px;
   color: #333;
 }
 .sub-menu li a {
@@ -159,7 +160,7 @@ input {
   background-color: #5b7dff;
 }
 .main-menu > li:hover > a {
-  height: 45px;
+  height: 43px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom: none;

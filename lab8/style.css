@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  color: #1d1f2e;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+video {
+  width: 100%;
+}
+
+/* Class chung */
+.none {
+  display: none;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.fixed {
+  position: fixed;
+}
+.cursor {
+  cursor: pointer;
+}
+.padding-top-bot {
+  padding: 80px 0;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.margin-bot {
+  margin-bottom: 80px;
+}
+
+/* flex */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex.nowrap {
+  flex-wrap: nowrap;
+}
+
+/* Direction */
+.flex.column {
+  flex-direction: column;
+}
+
+/* Justify */
+.flex.j-start {
+  justify-content: flex-start;
+}
+.flex.j-end {
+  justify-content: flex-end;
+}
+.flex.j-center {
+  justify-content: center;
+}
+.flex.j-between {
+  justify-content: space-between;
+}
+
+/* Align */
+.flex.baseline {
+  align-items: baseline;
+}
+.flex.a-start {
+  align-items: flex-start;
+}
+.flex.a-end {
+  align-items: flex-end;
+}
+.flex.a-center {
+  align-items: center;
+}
+
+/* container */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+nav {
+  padding: 30px 0;
+}
+.nav-img {
+  width: 120px;
+}
+.nav-img:hover {
+  filter: brightness(3);
+}
+.menu-item {
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+.menu-item a {
+  color: #919294;
+}
+.menu-item:first-of-type a {
+  color: #1d1f2e;
+}
+.menu-item:hover a {
+  color: #1d1f2e;
+}
+.menu-item:hover .cart-num {
+  background: #1d1f2e;
+}
+.nav-icon {
+  margin-right: 10px;
+}
+.cart-num {
+  left: 110%;
+  top: 2px;
+  font-weight: 700;
+  width: 30px;
+  height: 25px;
+  background: #919294;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 0.9em;
+  padding-bottom: 2px;
+}
+/* header */
+.wrap-header {
+  background: url(https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a58aaecdfba_Header-Pic.jpg)
+    no-repeat center bottom / cover;
+  width: 1440px;
+  min-height: 530px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.header-content {
+  color: #fff;
+}
+.label {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.header-content h2 {
+  margin-bottom: 10px;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: normal;
+}
+.des {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.header-content a {
+  display: block;
+  background-color: #fff;
+  padding: 18px 24px;
+  color: #1d1f2e;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.info {
+  margin: 0 auto;
+  width: 658px;
+  text-align: center;
+}
+.info h3 {
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.info p {
+  color: rgba(29, 31, 46, 0.7);
+  margin-bottom: 15px;
+}
+.info a {
+  margin: 0 auto;
+  width: fit-content;
+  display: block;
+  color: #a25f4b;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #a25f4b;
+}
+/* main */
+.title {
+  color: lightgray;
+}
+.title .text {
+  margin: 0 10px;
+}
+.minus {
+  height: 2px;
+  width: 20px;
+  background-color: lightgray;
+}
+.margin-bot-short {
+  margin-bottom: 40px;
+}
+.item-half {
+  width: 49%;
+  text-align: center;
+}
+.product-name {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+.product-price {
+  color: gray;
+}
+ .item-half .explore-hover {
+  width: 90%;
+  bottom: 180px;
+  left: 20px;
+  background-color: white;
+  padding: 10px 0;
+  opacity: 0;
+}
+.item-half:hover .explore-hover {
+  opacity: 1;
+}
+.item-third {
+  width: 32%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.item-third .explore-hover {
+  width: 90%;
+  bottom: 80px;
+  left: 20px;
+  background-color: white;
+  padding: 10px 0;
+  opacity: 0;
+  text-align: center;
+}
+.item-third:hover .explore-hover{
+    opacity: 1;
+}
+
+
